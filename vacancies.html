@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- Link to css stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<title>Hot Beans Web - Job vacancies</title>
+<img id="logo" src="images/Hot Beans-logos.jpeg" alt="Hot Beans Logo">
+
+<body>
+
+  <div id="pageSelection">
+
+    <a href="index.html">Home Page</a>
+    <a href="profiles.html">Employess</a>
+    <a href="vacancies.html">Job Roles</a>
+    <a href="courses.html">Course</a>
+    <a href="applications.html">applications</a>
+  </div>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <center>
+    <h1>Qualifications and job openings</h1>
+  </center>
+  <div class="w3-container">
+    <div style="background: #FDF5DF;
+           font-size: 15px;
+		   border: 5px solid black;
+		   margin: 10px;">
+      <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Front End</button>
+      <div id="Demo1" class="w3-container w3-hide">
+        <h1>Front End</h1>
+        <p>The design of websites will be your key focus for this work. You'll collaborate with other team members to
+          create stunning websites that fulfil the client's needs. Front-end web engineers should be familiar with the
+          following:
+        <P>
+        <ul>
+          <li>HTML</li>
+
+          <li>CSS</li>
+
+          <li>Bootstrap</li>
+
+          <li>JavaScript</li>
+
+          <li>PHP</li>
+
+          <li>Photoshop</li>
+        </ul>
+        <h2>Salary</h2>
+        <a>£25,000<a>
+            <br>
+            <br>
+      </div>
+
+      <button onclick="myFunction('Demo2')" class="w3-btn w3-block w3-black w3-left-align">Back End</button>
+      <div id="Demo2" class="w3-container w3-hide">
+        <h1>Back End</h1>
+        <p>You will be in charge of data flow between the server and the user in this position. You'll primarily be
+          responsible for maintaining the core database to ensure great performance and responsiveness of front-end
+          queries. You'll need experience in the following areas:
+        <P>
+        <ul>
+          <li>HTML</li>
+
+          <li>CSS</li>
+
+          <li>JavaScript</li>
+
+          <li>PHP</li>
+
+          <li>SQL</li>
+
+          <li>Python</li>
+
+        </ul>
+        <h2>Salary</h2>
+        <a>£30,000</a>
+        <br>
+        <br>
+      </div>
+
+      <button id="W" onclick="myFunction('Demo3')" class="w3-btn w3-block w3-black w3-left-align">full-Stack</button>
+      <div id="Demo3" class="w3-container w3-hide">
+        <h1>Full-Stack</h1>
+        <p>As a full-stack web developer, your responsibilities will include designing and developing software
+          applications as well as aiding clients with requests. You must have:
+        <P>
+        <ul>
+          <li>1-3 years of experience in development</li>
+
+          <li>HTML and CSS are both important skills to have.</li>
+
+          <li>JavaScript expertise is required.</li>
+
+          <li>jQuery expertise is required.</li>
+
+          <li>AJAX expertise is required.</li>
+
+        </ul>
+        <h2>Salary</h2>
+        <a>£60,000</a>
+        <br>
+        <br>
+      </div>
+      <script>
+        function myFunction(id) {
+          var x = document.getElementById(id);
+          document.getElementById("W").color = "red";
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else {
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+      </script>
+    </div>
+    </center>
+</body>
+<footer>
+  <p>Hot Beans ©2022
+  <p>
+  <p>All Rights Reversed</p>
+</footer>
+
+</html>

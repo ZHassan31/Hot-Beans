@@ -1,0 +1,108 @@
+
+
+.divCenter{
+  max-width: fit-content;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.card-body{
+  display:none;
+}
+.card-text{
+  padding-bottom: 25x;
+  font-family: helvetica;
+  font-size: 20px;
+  opacity: 0;
+}
+.card-title{
+  padding-bottom: 20px;
+  font-family: futura;
+  font-weight: bold;
+  font-size: 25px;
+}
+.card-img-top{
+  margin: 10px;
+  border: 3px solid black; 
+  /* box-shadow: 10px 10px 10px; */
+  width: 100%;
+  height: auto;
+}
+footer{
+  align-items: center;
+  align-content: center;
+}
+/* intro div */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #F7F9FA;
+}
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+.container,.container-fluid{
+  background-color: white;
+}
+body{
+background-color: #85d3f9;  
+font-family: Helvetica, sans-serif;
+}
+
+
+/* TODO 4: Use flexbox to center the card in the vertical and horizontal center. */
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1000px;
+  flex-wrap: wrap;
+
+}
+
+#profileFace {
+  border-color: 100 px black;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+#textBox {
+  background: #FDF5DF;
+  font-size: 15px;
+  border: 25x solid black;
+  margin: 10px;
+  padding: 25px;
+  text-align: center;
+  align-content: center;
+}
+
+
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 400) {
+  .column {
+    flex: 1 1 100%;
+    /* Stack columns on smaller screens */
+  }
+}
