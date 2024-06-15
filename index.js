@@ -1,3 +1,15 @@
+// change year auto in footer
+
+function getFullYear() {
+    const date = new Date();
+    return date.getFullYear();
+}
+
+const currentYear = getFullYear();
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById('year').textContent = currentYear;
+});
+
 $(document).ready(function(){
     $("#firstImage").click(function(){
         $("#firstTextBox").slideToggle(1000);

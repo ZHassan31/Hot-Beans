@@ -1,3 +1,65 @@
+.container-fluid,.container{
+  background-color: azure;
+}
+
+
+
+
+/* Adjusting the hero section */
+.hero-section {
+  background-image: URL("../images/webPage.jpeg"); /* Your hero image URL here */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0; /* Add padding to give space around the content */
+}
+
+/* Style for the hero content */
+.hero-content {
+  width: 500px; /* Adjust the width as needed */
+  margin: auto; /* Center the content */
+}
+
+/* Style for the hero heading */
+.hero-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Style for the hero paragraph */
+.hero-paragraph {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+/* Style for the hero button */
+.hero-button {
+  font-size: 1.25rem;
+  padding: 10px 30px;
+}
+
+
+
+/* body, html {
+  height: 100%;
+  margin: 0;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+} */
+
 
 
 .divCenter{
@@ -31,71 +93,33 @@ footer{
   align-items: center;
   align-content: center;
 }
-/* intro div */
-*, ::after, ::before {
-  box-sizing: border-box;
+
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
 }
-.bi {
-  vertical-align: -.125em;
-  fill: currentColor;
-}
-.icon-square {
-  width: 3rem;
-  height: 3rem;
-  border-radius: .75rem;
-}
-.product-device-2 {
-    top: -25%;
-    right: auto;
-    bottom: 0;
-    left: 5%;
-    background-color: #F7F9FA;
-}
-.product-device {
-  position: absolute;
-  right: 10%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: #333;
-  border-radius: 21px;
-  transform: rotate(30deg);
-}
-.container,.container-fluid{
-  background-color: white;
-}
-body{
-background-color: #85d3f9;  
-font-family: Helvetica, sans-serif;
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
 }
 
 
-/* TODO 4: Use flexbox to center the card in the vertical and horizontal center. */
-.flex-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 1000px;
-  flex-wrap: wrap;
-
-}
-
-#profileFace {
-  border-color: 100 px black;
-  width: 200px;
-  height: 200px;
-  text-align: center;
-}
-
-#textBox {
-  background: #FDF5DF;
-  font-size: 15px;
-  border: 25x solid black;
-  margin: 10px;
-  padding: 25px;
-  text-align: center;
-  align-content: center;
-}
 
 
 
