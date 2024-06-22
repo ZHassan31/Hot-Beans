@@ -1,7 +1,28 @@
+.row{
+
+  margin-right: 0.6250em;
+}
+#form{
+  padding:1.5%
+}
+#navbar,#footer{
+  background-color: rgb(52, 191, 203);
+  padding: 0;
+}
 .container-fluid,.container{
-  background-color: azure;
+  background-color: rgb(235, 244, 246);
+  width: 80%; /* Set your desired width */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
 }
 
+body{
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(58, 190, 249);
+  align-items: center;
+  align-content: center;
+}
 
 
 
@@ -34,39 +55,6 @@
   margin-bottom: 30px;
 }
 
-/* Style for the hero button */
-.hero-button {
-  font-size: 1.25rem;
-  padding: 10px 30px;
-}
-
-
-
-/* body, html {
-  height: 100%;
-  margin: 0;
-}
-.container-fluid {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-} */
-
-
-
-.divCenter{
-  max-width: fit-content;
-  margin-left: 50px;
-  margin-right: 50px;
-}
 .card-body{
   display:none;
 }
@@ -88,45 +76,4 @@
   /* box-shadow: 10px 10px 10px; */
   width: 100%;
   height: auto;
-}
-footer{
-  align-items: center;
-  align-content: center;
-}
-
-
-body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  height: 100vh;
-  font-family: Helvetica, sans-serif;
-  height: 100%;
-  margin: 0;
-}
-
-@keyframes gradient {
-  0% {
-      background-position: 0% 50%;
-  }
-
-  50% {
-      background-position: 100% 50%;
-  }
-
-  100% {
-      background-position: 0% 50%;
-  }
-}
-
-
-
-
-
-/* Responsive behavior for smaller screens */
-@media (max-width: 400) {
-  .column {
-    flex: 1 1 100%;
-    /* Stack columns on smaller screens */
-  }
 }
