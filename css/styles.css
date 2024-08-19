@@ -1,18 +1,22 @@
 .row {
   margin-right: 0.625em;
 }
+
 #form {
   padding: 1.5%;
 }
+
 #navbar,
 #footer {
   background-color: rgb(52, 191, 203);
   padding: 0;
 }
+
 .container-fluid,
 .container {
-  background-color: rgb(235, 244, 246);
-  width: 80%; /* Set your desired width */
+  background-color: rgb(142, 179, 187);
+  width: 80%;
+  /* Set your desired width */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3%;
@@ -20,25 +24,46 @@
 
 body {
   font-family: Helvetica, sans-serif;
-  background-color: rgb(58, 190, 249);
+  background-color: rgb(137, 146, 217);
   align-items: center;
   align-content: center;
 }
 
+.text {
+  font-size: 25px;
+  color: #FFFFFF;
+  /* Text color in hex */
+  color: rgb(255, 255, 255);
+  /* Text color in RGB */
+  background-color: #000000;
+  /* Background color in hex */
+  background-color: rgba(0, 0, 0, 0);
+  /* Background color with transparency */
+
+  font-family: "Stabil Grotesk", Arial, sans-serif;
+  /* Font stack with fallback fonts */
+}
+
+
+
 /* Adjusting the hero section */
 .hero-section {
-  background-image: URL("../images/webPage.jpeg"); /* Your hero image URL here */
+  background-image: URL("../images/webPage.jpeg");
+  /* Your hero image URL here */
   background-size: cover;
   background-position: center;
   color: #fff;
   text-align: center;
-  padding: 100px 0; /* Add padding to give space around the content */
+  padding: 100px 0;
+  /* Add padding to give space around the content */
 }
 
 /* Style for the hero content */
 .hero-content {
-  width: 500px; /* Adjust the width as needed */
-  margin: auto; /* Center the content */
+  width: 500px;
+  /* Adjust the width as needed */
+  margin: auto;
+  /* Center the content */
 }
 
 /* Style for the hero heading */
@@ -57,18 +82,21 @@ body {
 .card-body {
   display: none;
 }
+
 .card-text {
   padding-bottom: 25x;
   font-family: helvetica;
   font-size: 20px;
   opacity: 0;
 }
+
 .card-title {
   padding-bottom: 20px;
   font-family: futura;
   font-weight: bold;
   font-size: 25px;
 }
+
 .card-img-top {
   margin: 10px;
   border: 3px solid black;

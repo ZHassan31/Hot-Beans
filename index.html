@@ -9,25 +9,26 @@
 
   <title>Hot Beans Web Homepage</title>
 </head>
-<!-- hello -->  
- <div class="container" id="navbar">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <svg class="bi me-2" width="40" height="32">
-          <use xlink:href="#bootstrap"></use>
-        </svg>
-        <span class="fs-4"><img src="images/Logo.svg" alt="logo"> Hot Beans</span>
-      </a>
+<!-- hello -->
+<div class="container" id="navbar">
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32">
+        <use xlink:href="#bootstrap"></use>
+      </svg>
+      <span class="fs-4"><img src="images/Logo.svg" alt="logo"> Hot Beans</span>
+    </a>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="profiles.html" class="nav-link">Team</a></li>
-        
-        <li class="nav-item"><a href="applications.html" class="nav-link">Apply</a></li>
-      </ul>
-    </header>
-  </div>
-<body>
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+      <li class="nav-item"><a href="profiles.html" class="nav-link">Team</a></li>
+
+      <li class="nav-item"><a href="applications.html" class="nav-link">Apply</a></li>
+    </ul>
+  </header>
+</div>
+
+<body class="background">
 
 
   <section class="container py-2">
@@ -42,8 +43,8 @@
       </div>
     </div>
   </section>
-  
-  
+
+
 
   <div class="container">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -52,13 +53,14 @@
           height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Why Join Us?</h1>
-        <p class="lead">Here at Hot Beans, we're passionate about creating exceptional
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text">Why Join Us?</h1> <!-- Corrected -->
+        <p class="lead text">Here at Hot Beans, we're passionate about creating exceptional
           digital experiences. As a leader in web development, we specialize in designing and building high-quality,
-          user-centric web solutions that empower businesses to thrive in the digital age.</p>
+          user-centric web solutions that empower businesses to thrive in the digital age.</p> <!-- Corrected -->
       </div>
     </div>
   </div>
+
   <div class="container px-4 py-5" id="hanging-icons">
     <h2 class="pb-2 border-bottom">Roles</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
@@ -67,19 +69,19 @@
           <h3 class="fs-2 text-body-emphasis"><img src="images/front.svg" height="50px"> Front-End</h3>
           <p>The design of websites will be your key focus for this work. You'll collaborate with other team members to
             create stunning websites that fulfil the client's needs.</p>
-            <a href="applications.html" class="btn btn-primary">
-              Apply
-            </a>
+          <a href="applications.html" class="btn btn-primary">
+            Apply
+          </a>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <h3 class="fs-2 text-body-emphasis"><img src="images/back.svg" height="50px"> Back-End</h3>
           <p>You will be in charge of data flow between the server and the user in this position. as well as being
-            responsible for maintaining the  database to ensure optimum performance.</p>
-            <a href="applications.html" class="btn btn-primary">
-              Apply
-            </a>
+            responsible for maintaining the database to ensure optimum performance.</p>
+          <a href="applications.html" class="btn btn-primary">
+            Apply
+          </a>
         </div>
       </div>
       <div class="col d-flex align-items-start">
@@ -100,17 +102,17 @@
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item"><a href="index.html" class="nav-links">Home</a></li>
         <li class="nav-item"><a href="profiles.html" class="nav-link">Team</a></li>
-        
+
         <li class="nav-item"><a href="applications.html" class="nav-link">Apply</a></li>
       </ul>
       <p class="text-center text-body-secondary">© <span id="year"></span> Hot Beans, Inc</p>
     </footer>
   </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-    <script src="index.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>
